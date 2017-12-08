@@ -16,10 +16,6 @@ import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- *
- * @author user
- */
 public class PersonDAO {
 
     public Person findPerson(String nama) {
@@ -44,7 +40,7 @@ public class PersonDAO {
             System.out.println("ga ada");
             
         } catch (ParseException pe) {
-            System.out.println("Parasing tanggal salah");
+            System.out.println("Parsing tanggal salah");
         }
 
 //        Calendar cal = GregorianCalendar.getInstance();
